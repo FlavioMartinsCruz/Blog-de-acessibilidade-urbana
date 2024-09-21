@@ -1,15 +1,16 @@
 # Título do Projeto
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
-
+O objetivo do blog é centralizar e fornecer aos usuários informações atualizadas sobre os centros urbanos, destacando as dificuldades presentes em determinadas localidades de Belo Horizonte que podem afetar principalmente pessoas com limitações.
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Alexandre Abreu Silva 
+* Flávio Martins da Cruz 
+* Gabriel Alves da Silva 
+* Gabriel Nascimento de Assis 
+* Karoline Ferreira de Oliveira 
+* Luiz Felipe Gonçalves Soares
+* Marques Daniel Frances silva
+* Rafael Gomes Silva Oliveira 
 
 ## Orientador
 
