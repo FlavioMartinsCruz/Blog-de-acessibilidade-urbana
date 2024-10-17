@@ -3,10 +3,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html
+{
+  position:fixed;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+header {
+    display: flex;
+    /* padding: 0 20px; */
+}
+
+nav {
+    display: flex;
+    padding-top: 20px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 65vw;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #232C22;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+.esquerda {
+    display: flex;
+    gap: 50px;
+}
+
+.direita {
+    display: flex;
+    gap: 50px;
 }
 
 h3 {
@@ -14,63 +57,124 @@ h3 {
     font-family: "Montserrat";
 }
 
-
+main{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 140px;
+    margin-top: 50px;
+}
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 50px;
-    width: 100%;
-    height: 100vh;
-    background-color: #013a0b;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 422px;
+    /* min-height: 422px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 45px;
+    color: #232C22;
 }
 
 .sign-up {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 467px;
-    background-color: aliceblue;
-    border: 2px solid transparent;
-    border-radius: 20px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
+    color: #232C22;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    background-color: #C5CFBA;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.sign-up label {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    color: #232C22;
+    margin-bottom: 5px;
+}
+
+/* .sign-up label:nth-child(4){
+    margin-top: 20px;
+} */
+
+.sign-up a{
+    margin-top: 10px;
+}
+
+img{
+    scale: 80%;
+}
+
+.sign-up svg{
+    scale: 85%;
 }
 
 .form-itens {
-    width: 280px;
+    width: 400px;
     height: 40px;
-    border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 15px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
-#form-btn {
-    width: 100px;
+form {
+display: flex;
+flex-direction: column;
+/* gap: 8px; */
+}
+
+form a{
+    text-align: end;
+    font-size: 18px;
+}
+
+#login{
+    color: #232C22;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    text-align: left;
+}
+
+#form-btn { 
+    width: 180px;
     height: 50px;
-    margin-top: 2rem;
-    border: 2px solid #272927;
-    background-color: #04d42abe;
-    border-radius: 10px;
-    font-size: 16px;
-    color: rgb(29, 39, 48);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    background-color: #232C22;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
     cursor: pointer;
     transition: 0.4s;
+    margin: 20px auto 10px;
 }
 
 #form-btn:hover {
     transform: scale(1.1);
 }
-
-#signup-form {
-    margin-top: 1rem;
-}
-
 .error {
     color: red;
     font-size: 12px;

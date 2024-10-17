@@ -1,25 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/sign-up.css">
     <title>Cadastrar</title>
 </head>
+
 <body>
     <div class="container">
-        <div class="sign-up">
-            <h3>Cadastrar</h3><br>
-            <div class="error" id="error"></div>
-            <form id="signup-form">
-                <input type="text" id="userName" class="form-itens" placeholder="Nome de Usúario" autocomplete="off"><br><br>
-                <input type="text" id="email"class="form-itens" placeholder="Email" autocomplete="off"><br><br>
-                <input type="password" name="" id="password"class="form-itens" placeholder="Senha"><br><br>
-                <input type="password" name="confirm-password" id="confirm-password"class="form-itens" placeholder="Confirmar Senha"><br><br>
-                <button type="submit" id="form-btn">Entrar</button>
-            </form>
-        </div>
+        <header>
+            <nav>
+                <div class="esquerda">
+                    <a href="">
+                        <alt="">Início
+                    </a>
+                    <a href="">
+                        <alt="">Sobre
+                    </a>
+                </div>
+                <div class="direita">
+                    <a href="">
+                        <alt="">Login
+                    </a>
+                    <a href="">
+                        <alt="">Cadastro
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="logo">
+                <img src="/codigo-fonte/public/img/logo.png" alt="Logotipo BH Acessível">
+                <p>Transformando espaços, Transformando vidas!</p>
+            </div>
+            <div class="sign-up">
+                <svg width="108" height="112" viewBox="0 0 108 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M103.172 55.6849C103.172 84.0979 80.9419 106.87 53.8362 106.87C26.7306 106.87 4.5 84.0979 4.5 55.6849C4.5 27.2718 26.7306 4.5 53.8362 4.5C80.9419 4.5 103.172 27.2718 103.172 55.6849Z"
+                        stroke="#232C22" stroke-width="9" />
+                    <mask id="path-2-inside-1_38_1075" fill="white">
+                        <path
+                            d="M53.9492 13.4155C42.6378 13.4155 33.4121 23.7728 33.4121 36.4718C33.4121 49.1708 42.6378 59.5281 53.9492 59.5281C65.2607 59.5281 74.4863 49.1708 74.4863 36.4718C74.4863 23.7728 65.2607 13.4155 53.9492 13.4155ZM53.9492 59.5281C35.0968 59.5281 19.7207 76.7903 19.7207 97.9553H26.5664C26.5664 80.9332 38.7871 67.2135 53.9492 67.2135C69.1114 67.2135 81.332 80.9332 81.332 97.9553H88.1777C88.1777 76.7903 72.8016 59.5281 53.9492 59.5281ZM53.9492 21.101C61.5437 21.101 67.6406 27.9458 67.6406 36.4718C67.6406 44.9978 61.5437 51.8427 53.9492 51.8427C46.3548 51.8427 40.2578 44.9978 40.2578 36.4718C40.2578 27.9458 46.3548 21.101 53.9492 21.101Z" />
+                    </mask>
+                    <path
+                        d="M53.9492 13.4155C42.6378 13.4155 33.4121 23.7728 33.4121 36.4718C33.4121 49.1708 42.6378 59.5281 53.9492 59.5281C65.2607 59.5281 74.4863 49.1708 74.4863 36.4718C74.4863 23.7728 65.2607 13.4155 53.9492 13.4155ZM53.9492 59.5281C35.0968 59.5281 19.7207 76.7903 19.7207 97.9553H26.5664C26.5664 80.9332 38.7871 67.2135 53.9492 67.2135C69.1114 67.2135 81.332 80.9332 81.332 97.9553H88.1777C88.1777 76.7903 72.8016 59.5281 53.9492 59.5281ZM53.9492 21.101C61.5437 21.101 67.6406 27.9458 67.6406 36.4718C67.6406 44.9978 61.5437 51.8427 53.9492 51.8427C46.3548 51.8427 40.2578 44.9978 40.2578 36.4718C40.2578 27.9458 46.3548 21.101 53.9492 21.101Z"
+                        fill="black" />
+                    <path
+                        d="M19.7207 97.9553H10.7207V106.955H19.7207V97.9553ZM26.5664 97.9553V106.955H35.5664V97.9553H26.5664ZM81.332 97.9553H72.332V106.955H81.332V97.9553ZM88.1777 97.9553V106.955H97.1777V97.9553H88.1777ZM53.9492 4.41553C36.7164 4.41553 24.4121 19.8096 24.4121 36.4718H42.4121C42.4121 27.7361 48.5591 22.4155 53.9492 22.4155V4.41553ZM24.4121 36.4718C24.4121 53.134 36.7164 68.5281 53.9492 68.5281V50.5281C48.5591 50.5281 42.4121 45.2076 42.4121 36.4718H24.4121ZM53.9492 68.5281C71.182 68.5281 83.4863 53.134 83.4863 36.4718H65.4863C65.4863 45.2076 59.3393 50.5281 53.9492 50.5281V68.5281ZM83.4863 36.4718C83.4863 19.8096 71.182 4.41553 53.9492 4.41553V22.4155C59.3393 22.4155 65.4863 27.7361 65.4863 36.4718H83.4863ZM53.9492 50.5281C29.1754 50.5281 10.7207 72.8271 10.7207 97.9553H28.7207C28.7207 80.7535 41.0182 68.5281 53.9492 68.5281V50.5281ZM19.7207 106.955H26.5664V88.9553H19.7207V106.955ZM35.5664 97.9553C35.5664 84.8965 44.7084 76.2135 53.9492 76.2135V58.2135C32.8657 58.2135 17.5664 76.97 17.5664 97.9553H35.5664ZM53.9492 76.2135C63.19 76.2135 72.332 84.8965 72.332 97.9553H90.332C90.332 76.97 75.0327 58.2135 53.9492 58.2135V76.2135ZM81.332 106.955H88.1777V88.9553H81.332V106.955ZM97.1777 97.9553C97.1777 72.8271 78.723 50.5281 53.9492 50.5281V68.5281C66.8803 68.5281 79.1777 80.7535 79.1777 97.9553H97.1777ZM53.9492 30.101C55.6223 30.101 58.6406 31.909 58.6406 36.4718H76.6406C76.6406 23.9826 67.465 12.101 53.9492 12.101V30.101ZM58.6406 36.4718C58.6406 41.0346 55.6223 42.8427 53.9492 42.8427V60.8427C67.465 60.8427 76.6406 48.9611 76.6406 36.4718H58.6406ZM53.9492 42.8427C52.2761 42.8427 49.2578 41.0346 49.2578 36.4718H31.2578C31.2578 48.9611 40.4334 60.8427 53.9492 60.8427V42.8427ZM49.2578 36.4718C49.2578 31.909 52.2761 30.101 53.9492 30.101V12.101C40.4334 12.101 31.2578 23.9826 31.2578 36.4718H49.2578Z"
+                        fill="#232C22" mask="url(#path-2-inside-1_38_1075)" />
+                </svg>
+                <div class="error" id="error"></div>
+                <form id="signup-form">
+                    <label for="userName">Usuário</label>
+                    <input type="text" id="userName" class="form-itens" autocomplete="off">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" class="form-itens" autocomplete="off">
+                    <label for="password">Senha</label>
+                    <input type="password" name="" id="password" class="form-itens">
+                    <label for="confirm-password">Confirme a senha</label>
+                    <input type="password" name="confirm-password" id="confirm-password" class="form-itens">
+                    <button type="submit" id="form-btn">Cadastrar</button>
+                </form>
+            </div>
+        </main>
     </div>
     <script src="../js/signup.js"></script>
 </body>
+
 </html>
