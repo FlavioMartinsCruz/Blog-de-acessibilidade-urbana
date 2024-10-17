@@ -1,0 +1,29 @@
+{
+  "name": "energy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.3",
+    "validator": "^13.12.0"
+  }
+}

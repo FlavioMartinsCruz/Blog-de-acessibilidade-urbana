@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/energy-posts.css">
+    <title>Energy Clean</title>
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <input type="hidden" id="userName" value="<%= userName %>">
+
+    <header>
+        <img src="../img/energy-clean-logo.png" alt="">
+        <div class="welcome">
+            <p>Bem vindo, <%= userName %>
+            </p>
+        </div>
+    </header>
+
+    <main>
+        <div class="postar">
+            <button id="new-post">Nova publicação</button>
+        </div>
+        <div id="content-post" class="content-post">
+            <h2>Nova Publicação</h2>
+            <div class="formulario">
+                <form id="post">
+                    <label for="tittle"></label>
+                    <input type="text" id="tittle" placeholder="Titulo" autocomplete="off"><br><br><br>
+                    <textarea type="text" id="content" placeholder="Contéudo" autocomplete="off"></textarea><br><br>
+                    <div class="button">
+                        <button type="button" id="cancel" class="buttons">Cancelar</button>
+                        <button type="submit" id="send" class="buttons">Publicar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <hr><br>
+        <div class="postagens">
+            <div class="postagem">
+        </div>
+        <hr><br>
+    </main>
+
+
+    <script src="../js/energy-posts.js"> </script>
+
+</body>
+
+</html>
