@@ -59,9 +59,10 @@ h3 {
 
 main{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     gap: 115px;
+    margin-top: 50px;
 }
 
 .container {
@@ -69,9 +70,8 @@ main{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    /* gap: 50px; */
-    width: 100%;
-    height: 100%;
+    /* width: 100%;
+    height: 100%; */
 }
 
 img {
@@ -98,7 +98,7 @@ img {
     font-family: "Roboto", sans-serif;
     font-size: 32px;
     font-weight: bold;
-    line-height: 40px;
+    line-height: 45px;
     color: #FFFFFF;
 }
 
@@ -109,7 +109,7 @@ img {
     align-items: center;
     text-align: left;
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Roboto", sans-serif;
 }
 
@@ -118,10 +118,15 @@ img {
     font-family: "Roboto", sans-serif;
     font-weight: regular;
     color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.sign-in label:nth-child(3){
+    margin-top: 20px;
 }
 
 .sign-in a{
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .sign-in svg{
@@ -138,8 +143,8 @@ img {
     border-radius: 15px;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    font-weight: regular;
+    font-size: 18px;
+    margin-bottom: 10px;
 }
 
 form {
@@ -150,6 +155,7 @@ flex-direction: column;
 
 form a{
     text-align: end;
+    font-size: 18px;
 }
 
 #login{
@@ -171,7 +177,7 @@ form a{
     font-family: "Roboto", sans-serif;
     cursor: pointer;
     transition: 0.4s;
-    margin: 0 auto 10px;
+    margin: 40px auto 10px;
 }
 
 #login-btn:hover {
