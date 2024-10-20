@@ -81,12 +81,12 @@ main{
 img {
     position: absolute;
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
     object-fit: cover;
     background-position: center center;
     z-index: -1;
     opacity: 0.78;
-    filter: blur(2px) brightness(0.25);
+    filter: blur(2px) brightness(0.5);
 }
 
 .logo {
